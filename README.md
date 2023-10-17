@@ -1,7 +1,7 @@
 
 # 📑 Temp Mail API Documentation
 
-Effortlessly manage temporary email accounts and messages with the Temp Mail API. This user-friendly and efficient solution is ideal for applications, websites, or projects that require temporary email services. 📧✨
+Effortlessly manage temporary email accounts and messages with the Temp Mail API. This user-friendly and efficient solution is ideal for applications, websites, or new projects with temporary email services. 📧✨
 
 ## 📝 How to Get Started?
 
