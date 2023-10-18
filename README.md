@@ -7,7 +7,7 @@ Effortlessly manage temporary email accounts and messages with the Temp Mail API
 
 Getting started is simple with the Temp Mail API:
 
-**😎 API Base URL:** `http://localhost:3000/api/`
+**😎 API Base URL:** `https://free-tempmail-api.vercel.app/api/`
 
 ### 1. 📨 Get New Mail Account
 - **Endpoint:** `/newmail`
