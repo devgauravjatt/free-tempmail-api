@@ -51,6 +51,44 @@ Getting started is simple with the Temp Mail API:
   }
   ```
 
+### 3. 📖 Read Mail by ID
+- **Endpoint:** `/read/{mail_id}`
+- **Method:** GET
+- **Description:** Read a specific email in the temporary mailbox by its ID.
+- **Path Parameters:**
+  - `mail_id` (string, required): The unique identifier of the email.
+- **Example Request:**
+  ```http
+  GET /read/658839bc9995d8263956db24
+  ```
+- **Example Response:**
+  ```json
+  {
+    "success": true,
+    "mail": {
+      "id": "658839bc9995d8263956db24",
+      "seen": true,
+      "from": {
+        "address": "devgdjatt@onmail.com",
+        "name": "Nina Mejia"
+      },
+      "to": [
+        {
+          "address": "longdyane@desertsundesigns.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "",
+      "text": "your mail text here",
+      "html": [
+        "<div>your mail text here</div>"
+      ],
+      "date": "2023-12-24T14:01:24+00:00"
+    }
+  }
+  ```
 
 #
 
